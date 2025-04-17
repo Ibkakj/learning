@@ -65,10 +65,9 @@ background: #FAFAFAD1;
 
       
 .footer-container{
-    text-align: left;
     padding: 50px 30px;
     background-color:#292929;
-    margin-top: 0px;
+    margin-top:20px 0px;
 
 }
 .footer-text{
@@ -79,10 +78,8 @@ background: #FAFAFAD1;
     padding:0px 10px;
   }
   .footer-button{
-    width: 253;
-    height: 69;
-    top: 246px;
-    left: 1110px;
+    display: flex;
+    justify-content: right;
     border-radius: 32px;
     border-width: 4px;
     padding-top: 15px;
