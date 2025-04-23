@@ -43,31 +43,26 @@ body {
     border-radius: 20px;
 }
 .aboiut-container { 
-  background-color:black; 
+  background-color:white; 
   padding:40px;
-
-
-
+  max-height: 200px;;
 }
 .box{
-    background-image: url("img\6a113d1c8ed644ee1979431b5f1c9390.png");
+    background-image: url("../img/6a113d1c8ed644ee1979431b5f1c9390.png");
     background-color:rgba(255, 255, 255 ,0.5 );
     background-size: cover;
     border-radius: 30px; 
-    font-size:20px;
     display:flex;
     flex-direction: column;
     align-items:center;
     justify-content: center;
 
 }
+ .box:h1{
+    color: white;
+    font-size: 20px;
 
-.aboiut-text{
-    color:rgb(247, 243, 243);
-    font-size:20px;
-    text-align:left;
-    
-}
+ }
 .footer-container{
     background-color: #292929;
     height: 150px;
